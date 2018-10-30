@@ -1,0 +1,197 @@
+h2{
+    background-color: gray;
+    background-blend-mode: darken;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3{
+
+margin-top: 100;
+color: black;
+font-size: 20;
+
+
+}
+
+
+.head{
+    background-color: rgb(22, 3, 3);
+
+
+}
+.sign
+{
+
+    color: rgb(245, 49, 49);
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 350px;
+    margin-right:250px; 
+    border: 2px solid rgb(22, 3, 3);
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: antiquewhite;
+
+}
+
+
+body{
+    color:white;
+    font-family: monospace;
+    text-align: center;
+    
+    
+}
+.hero{
+    position: absolute;
+    width: 1200px;
+        margin-left: 0;
+        margin-top: 0;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+
+}
+header
+{
+    background-image:linear-gradient(rgb(9, 10, 6),rgba(130,180,0,0)),url(photo-1496411091121-3c8156f08cac.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-nav li.active a
+{
+    border: 1x solid rgb(99, 5, 5);
+}
+.main-nav li a :hover
+{
+    border: 1px solid white;
+}
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+      
+    padding: 160px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+  .body10{
+
+    margin-bottom: 550;
+
+  }
+
+  .container1{
+
+    color: black;
+  }
